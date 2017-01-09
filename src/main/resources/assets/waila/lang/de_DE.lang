@@ -1,8 +1,11 @@
+screen.button.waila=Waila
+screen.button.modules=Module
 screen.label.scale=Maße
 screen.label.dragtuto=Verschiebe das HUD, um seine Position zu ändern.
 
 screen.button.default=Standard
 screen.button.cancel=Abbrechen
+screen.button.ok=Ok
 screen.button.yes=Ja
 screen.button.no=Nein
 screen.button.back=Zurück
@@ -17,8 +20,23 @@ choice.toggledmaintained=Geschaltet/Gewartet
 choice.showliquids=Flüssigkeiten
 choice.shifttoggledblock=Blöcke schleichend umschalten
 choice.shifttoggledents=Lebewesen schleichend umschalten
-screen.button.configureaspect=Konfiguriere Aspekt...
+choice.hidefromlist=Verstecke vor Spielerliste
+choice.format.modname=Modname
+choice.format.blockname=Blockname
+choice.format.fluidname=Flüssigkeitsname
+choice.format.entityname=Kreaturname
+choice.format.metadata=Metadata
+choice.format.background=Hintergrundfarbe
+choice.format.gradienttop=Farbverlauf (Oben)
+choice.format.gradientbottom=Farbverlauf (Unten)
+choice.format.font=Textfarbe
+screen.button.configureaspect=Konfiguriere aspekt...
+screen.button.configureformat=Formatiere Inhalt...
+screen.button.exporttheme=Exportiere Theme
 
+enchant.title.name=Name
+enchant.title.minlvl=Min lvl
+enchant.title.maxlvl=Max lvl
 enchant.title.weight=Gewicht
 enchant.label.enchantability=Verzauberbarkeit
 
@@ -34,13 +52,18 @@ client.msg.nousage=Keine Nutzung gefunden.
 
 hud.msg.none=<Nichts>
 hud.msg.empty=<Leer>
-
+hud.msg.output=Output
+hud.msg.input=Input
+hud.msg.out=Raus
+hud.msg.in=Rein
 hud.msg.power=Energie
 hud.msg.storage=Speicher
 hud.msg.stored=Gespeichert
 hud.msg.any=Jegliches
 hud.msg.mode=Modus
 hud.msg.maxpower=Max Energie
+hud.msg.trigger=Schalter
+hud.msg.maxio=Max IO
 
 hud.msg.send=Senden
 hud.msg.recv=Empfangen
@@ -55,6 +78,7 @@ hud.msg.restricted=Eingeschränkt
 hud.msg.private=Privat
 
 hud.msg.white=Weiß
+hud.msg.orange=Orange
 hud.msg.magenta=Magenta
 hud.msg.lblue=HBlau
 hud.msg.yellow=Gelb
@@ -70,6 +94,7 @@ hud.msg.green=Grün
 hud.msg.red=Rot
 hud.msg.black=Schwarz
 
+hud.msg.health=Leben
 hud.msg.growth=Wachstum
 hud.msg.mature=Erwachsen
 hud.msg.off=Aus
@@ -79,9 +104,18 @@ hud.msg.delay=Verzögerung
 hud.msg.comparator=Komparator
 hud.msg.substractor=Substraktor
 hud.msg.record=Platte
+hud.msg.toomuch=Zu viel...
 
 hud.msg.offers=Angebote
 hud.msg.demands=Bedarf
+
+hud.msg.career=Beruf: %s
+
+hud.item.melonstem=Melonenstamm
+hud.item.pumpkinstem=Kürbisstamm
+
+cfg.theme.vanilla=Vanilla
+cfg.theme.dark=Dunkel
 
 option.appeng.monitorcontent=Monitorinhalt
 option.bb.content=Fassinhalt
@@ -89,7 +123,9 @@ option.bc.tankamount=Flüssigk.-Menge
 option.bc.tanktype=Flüssigk.-Typ
 option.enderstorage.colors=Farben
 option.ic2.inputeumach=Max EU-Input [Maschinen]
-option.ic2.inputeuother=Max EU-Input [Anderes]
+option.ic2.inputeuother=Max EU-Output [Anderes]
+option.ic2.inputeu=Max EU Input
+option.ic2.outputeu=Max EU Output
 option.ic2.storage=Energie gespeichert
 option.ic2.consump=Zeige Verbrauch
 option.ic2.tradeomat=Zeige Tauschautomaten-Forderung
@@ -111,8 +147,9 @@ option.vanilla.comparator=Komparatormodus
 option.vanilla.redstone=Redstone-Stärke
 option.vanilla.jukebox=Musikbox-Platte
 option.vanilla.silverfish=Silberfisch verdecken
+option.vanilla.furnacedisplay=Zeige Ofen fortschritt
 option.etb.displaydata=Zeige Sockeldaten
-option.enderio.inout=Zeige Input/Output
+option.enderio.inout=Zeige Eingang/Ausgang
 option.enderio.storage=Zeige gespeicherte MJ
 option.enderio.owner=Zeige Block-Besitzer
 option.enderio.channel=Zeige Hypercube-Kanal
@@ -129,6 +166,13 @@ option.carpenters.hide=Getarnte Blöcke verdecken
 option.stevescarts.showall=Zeige Daten
 option.stevescarts.colorblind=Farbenblind-Modus
 option.stevescarts.shifttoggle=Schleichend Umschalten
+option.general.showents=Zeige Kreaturen
 option.general.showhp=Zeige Gesundheit von Lebewesen
 option.general.showcrop=Zeige Pflanzenwachstum
+option.general.registry=Zeige Registry eintrag
+option.capability.tankinfo=Zeige Behälteranzeige
+option.capability.energyinfo=Zeige Energiedaten
+option.capability.inventoryinfo=Zeige Inventarinfos
 option.thaumcraft.aspects=Zeige Aspekte
+
+nei.options.keys.showenchant=Zeige Verzauberungswerte
